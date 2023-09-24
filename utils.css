@@ -38,9 +38,22 @@
 .my-1 {
     margin-top: 8px;
     margin-bottom: 8px;
-}
+}   
 
 .px-2 {
     padding-left: 8px;
     padding-right: 8px;
+}
+
+.text-blue {
+    color: rgb(21, 73, 216);
+}
+
+.btn {
+    padding: 8px 12px;
+    border: 2px solid white;
+    border-radius: 4px;
+    color: white;
+    background-color: rgb(21, 73, 216);
+    cursor: pointer;
 }
