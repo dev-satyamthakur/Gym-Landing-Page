@@ -1,3 +1,7 @@
+:root {
+    --main-primary-color : rgb(255, 142, 13);
+}
+
 .min-h-screen {
     min-height: 100vh;
 }
@@ -27,6 +31,10 @@
     justify-content: center;
 }
 
+.justify-end {
+    justify-content: end;
+}
+
 .justify-between {
     justify-content: space-between;
 }
@@ -46,7 +54,7 @@
 }
 
 .text-blue {
-    color: rgb(21, 73, 216);
+    color: var(--main-primary-color)
 }
 
 .btn {
@@ -54,6 +62,6 @@
     border: 2px solid white;
     border-radius: 4px;
     color: white;
-    background-color: rgb(21, 73, 216);
+    background-color: var(--main-primary-color);
     cursor: pointer;
 }
